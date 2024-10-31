@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALPINE RIVERHILL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        nav {
+            background-color: #f69927;
+        }
+
+        nav>div {
+            height: 90px;
+            display: flex;
+        }
+
+        nav>div>img {
+            margin-top: 10px;
+            width: 80px;
+            height: 60px;
+        }
+
+        nav>div>h2 {
+            color: white;
+            font-size: 20px;
+            padding-top: 25px;
+        }
+
+        #text {
+            color: white;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        .img {
+            width: 100%;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .container-2 {
+            background-image: url(../media/images/2.jpg);
+            width: 100%;
+            color: white;
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        #p {
+            font-size: 14px;
+            margin: 0%;
+        }
+
+        hr {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        h4 {
+            margin: 0%;
+            font-size: 20px;
+            padding: 0%;
+        }
+
+        ul>li>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .footer-top {
+            background-image: url(../media/images/logo-yellow.png);
+            height: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="d-flex justify-content-evenly sticky-top">
+        <div>
+            <img src="../media/images/11.png" alt="">
+            <h2>ALPINE RIVERHILL</h2>
+        </div>
+
+        <div class="d-flex  p-4 ">
+            <a href="home.html">
+                <h5 id="text"> <i class="fa-solid fa-house-chimney"> </i> Home</h5>
+            </a>
+            <a href="Gallery.html">
+                <h5 id="text"> <i class="fa-sharp fa-solid fa-images"> </i>Gallery</h5>
+            </a>
+            <a href="COVID.html">
+                <h5 id="text"> <i class="fa-solid fa-virus"> </i>COVID-19 Safty prectice</h5>
+            </a>
+            <a href="Offer.html">
+                <h5 id="text"> <i class="fa-solid fa-crown"> </i>Offer</h5>
+            </a>
+            <a href="testimonials.html">
+                <h5 id="text"> <i class="fa-solid fa-pen"></i> testimonials</h5>
+            </a>
+            <a href="abot.html">
+                <h5 id="text"> <i class="fa-solid fa-circle-info"></i> About ss</h5>
+            </a>
+            <a href="contact.html">
+                <h5 id="text"> <i class="fa-solid fa-phone-flip"></i> Contact Us</h5>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../media/images/1.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="../media/images/2.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="../media/images/3.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="../media/images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../media/images/5.jpg" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+    <div class="text-lg-center p-4">
+        <h1 style="color:#f69927; font-size: 30px;">WELCOME TO ALPINE RIVERHILL</h1>
+        <h2 style="font-size: 25px;"> Luxury Redefined</h2>
+        <hr style="width: 50%;" class="d-inline-block text-center">
+    </div>
+
+    <div class="container-fluid">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div>
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-4">
+                                <i style="color: #f69927;" class=" fa-solid fa-bed fa-2x "></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-4">
+                                <i style="color: #f69927;" class="fa-solid fa-couch fa-2x"></i>
+                                <h4>Spacious Living Room</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Sofa Set | Dining Area | Fully Air Conditioned</p>
+                            </div>
+                            <div class="col-4 p-4">
+                                <i style="color: #f69927;" class="fa-sharp fa-solid fa-people-group fa-2x"></i>
+                                <h4>25-30 guests</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Suitable for family, friends and corporate getaways</p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-4">
+                                <i style="color: #f69927;" class="fa-solid fa-water-ladder fa-2x"></i>
+                                <h4>Private Swiming Pool</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-4">
+                                <i style="color: #f69927;" class="fa-solid fa-plate-utensils fa-2x">></i>
+                                <h4>Meals</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-4">
+                                <i style="color: #f69927;" class="fa-solid fa-music fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-wifi fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-tv fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-solid fa-blog fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="row justify-content-center w-100">
+                            <div class=" col-md-4 col-sm-12 p-5">
+                                <i style="color: #f69927;" class=" fa-solid fa-bed fa-2x "></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class=" col-md-4 col-sm-12 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-couch fa-2x"></i>
+                                <h4>Spacious Living Room</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Sofa Set | Dining Area | Fully Air Conditioned</p>
+                            </div>
+                            <div class="col-md-4 col-sm-12 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-solid fa-people-group fa-2x"></i>
+                                <h4>25-30 guests</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Suitable for family, friends and corporate getaways</p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center w-100">
+                            <div class="col-md-4 col-sm-12 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-water-ladder fa-2x"></i>
+                                <h4>Private Swiming Pool</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-md-4 col-sm-12 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-regular fa-plate-utensils fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-md-4 col-sm-12 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-music fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center w-100">
+                            <div class="col-md-4 col-sm-12 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-wifi fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-md-4 col-sm-12 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-tv fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-md-4 col-sm-12 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-solid fa-blog fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class=" fa-solid fa-bed fa-2x "></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-couch fa-2x"></i>
+                                <h4>Spacious Living Room</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Sofa Set | Dining Area | Fully Air Conditioned</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-solid fa-people-group fa-2x"></i>
+                                <h4>25-30 guests</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Suitable for family, friends and corporate getaways</p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-water-ladder fa-2x"></i>
+                                <h4>Private Swiming Pool</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-regular fa-plate-utensils fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-music fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-wifi fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-tv fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-solid fa-blog fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class=" fa-solid fa-bed fa-2x "></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-couch fa-2x"></i>
+                                <h4>Spacious Living Room</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Sofa Set | Dining Area | Fully Air Conditioned</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-solid fa-people-group fa-2x"></i>
+                                <h4>25-30 guests</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Suitable for family, friends and corporate getaways</p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-water-ladder fa-2x"></i>
+                                <h4>Private Swiming Pool</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-regular fa-plate-utensils fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-music fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-wifi fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-tv fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-solid fa-blog fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class=" fa-solid fa-bed fa-2x "></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-couch fa-2x"></i>
+                                <h4>Spacious Living Room</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Sofa Set | Dining Area | Fully Air Conditioned</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-solid fa-people-group fa-2x"></i>
+                                <h4>25-30 guests</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Suitable for family, friends and corporate getaways</p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-water-ladder fa-2x"></i>
+                                <h4>Private Swiming Pool</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-regular fa-plate-utensils fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-music fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center w-100">
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-wifi fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-solid fa-tv fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                            <div class="col-4 p-5">
+                                <i style="color: #f69927;" class="fa-sharp fa-solid fa-blog fa-2x"></i>
+                                <h4>6 Master Bedrooms</h4>
+                                <hr class="w-50 d-inline-block text-center">
+                                <p id="p">Air conditioned with an attached balcony</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div class="container-2 p-3">
+        <h2 class="text-center" style="color: #f69927;">Interested to make your life memorable with Alpine Riverhill?
+        </h2>
+        <h4 class="text-center">Fill the below details and our support team will contact you soon</h4>
+        <div class="border border-white border-2 w-50 p-2 m-auto">
+            <h2 class="text-center ">Enquiry Form</h2>
+            <div class="row d-flex p-3">
+                <div class="col-12">
+                    <label>NMAE:</label>
+                    <input class="w-100" type="text" name="" id="" placeholder="Full Name"><br>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg6 p-2">
+                    <label>Phone:</label><br>
+                    <input type="text" placeholder="Contact Number">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg6 p-2">
+                    <label>No. of Guests:</label><br>
+                    <input type="text" placeholder="1">
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg6 p-2">
+                    <label>Check-In Date:</label><br>
+                    <input type="date" placeholder="26-01-2024">
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg6 p-2">
+                    <label>Check-In Date:</label><br>
+                    <input type="date" placeholder="26-01-2024">
+                </div>
+
+
+                <div class="col-12">
+                    <label>Amenities:</label><br>
+                    <input type="checkbox"> <label for="">Meals</label><br>
+                    <input type="checkbox"> <label for="">Barbeque</label><br>
+                    <input type="checkbox"> <label for="">Sheesha</label>
+                </div>
+
+                <div class="col-12">
+                    <label>Message:</label><br>
+                    <input class="w-100 h-75" type="text" placeholder="Type your message here...            ">
+                </div>
+                <div class="text-center mt-5">
+                    <button class="btn btn-warning w-25 " onclick=""> <i class="fa-solid fa-paper-plane"></i> SEND
+                        Enquiry</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 class="text-center mt-5" style="color: #f69927;">BEAUTY OF ALPINE RIVERHILL</h2>
+        <h5 class="text-center ">Live the moment, create memories and cherish them forever!</h5>
+        <div class="d-flex justify-content-center">
+            <iframe width="660" height="385" src="https://www.youtube.com/embed/SEadiIzqr_E?si=YwdODWTVvE607JGe"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="d-flex justify-content-center pt-3">
+            <button class="btn" style="width: 200px; height: 50px; background-color: #f69927;"> VIEW PHOTOS >></button>
+        </div>
+    </div>
+
+    <div class="footer-top">
+
+    </div>
+
+    <div class="footer-mid d-flex p-5 " style="background-color: #fa8c06;  color: white;">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="d-flex">
+                    <img style="width: 20%;" src="../media/images/11.png" alt="">
+                    <h5 class="p-3">ALPINE RIVERHILL</h5>
+                </div>
+                <p>Alpine Riverhill Villa is a modern & upscale vacation rental villa that is passionate about making
+                    moments and recognising that small gestures make a big difference to our guests. We do ordinary
+                    things
+                    in an extraordinary way a philosophy that has defined our brands success from the very start.</p>
+            </div>
+            <div class="col-sm-12 col-md-3" style="color: white;">
+                <h5 class="d-flex justify-content-md-center">QUICK LINKS:</h5>
+                <ul type="none">
+                    <li><a style="color: white;" href=""><i class="fa-solid fa-house-chimney"></i> HOME</a> </li>
+                    <li><a style="color: white;" href=""><i class="fa-sharp fa-solid fa-images"></i> Gallery</a> </li>
+                    <li><a style="color: white;" href=""><i class="fa-solid fa-virus"></i> Covid-19 Safety</a></li>
+                    <li><a style="color: white;" href=""> <i class="fa-solid fa-crown"></i> Offers</a></li>
+                    <li><a style="color: white;" href=""><i class="fa-solid fa-pen"></i> Testimonials</a></li>
+                    <li><a style="color: white;" href=""><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+                    <li><a style="color: white;" href=""><i class="fa-solid fa-phone-flip"></i> Contact Us</a></li>
+                </ul>
+
+            </div>
+            <div class="col-sm-12 col-md-5" style="color: white;">
+                <h5>CONTACT DETAILS:</h5>
+                <label for="">Address:</label>
+                <p>Bungalow no. 01, River Hill Park Society, Near Sai Brooklands, Opp.
+                    Sidhu Dhaba, Takve, Old Mumbai-Pune Highway, Lonavala - 410405</p>
+                <label for="">Contact Number:</label>
+                <p>+919930247992 / +919667555554</p>
+                <label for="">Social Links:</label>
+                <div class="social-icons" style="font-size: 28px; color: white;;">
+                    <a style="color: white;" href=""><i class="fab fa-facebook-square"></i></a>
+                    <a style="color: white;" href=""><i class="fab fa-twitter"></i></a>
+                    <a style="color: white;" href=""><i class="fab fa-whatsapp"></i></a>
+                    <a style="color: white;" href=""><i class="fab fa-pinterest"></i></a>
+                    <a style="color: white;" href=""><i class="fab fa-snapchat"></i></a>
+                    <a style="color: white;" href=""><i class="fab fa-youtube"></i></a>
+                    <a style="color: white;" href=""><i class="fab fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer-bottom d-flex justify-content-center p-3" style="background-color: #f8a305; color: white;">
+        <h5 style="font-size: 15px;">© 2020 Alpine Riverhill | All Rights Reserved</h5>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
